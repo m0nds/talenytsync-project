@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.playgroundBackground {
+  background-image: url("./assets/playground.png");
+  height: 700px;
+  background-position: center;
+}
+
+.boxs {
+  border: 1px solid #b2ddff;
+  box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+}
+
+.arrowImage {
+  position: absolute;
+right: 361.415px;
+top: 136px;
+transform: rotate(-154.745deg);
+}
